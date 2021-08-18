@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="mx-auto w-3/4 text-center ">
+        <h1 class="font-semibold text-center text-6xl mt-10 mb-3 ">Lets get some<span class="text-yellow-600"> Money
+                !!!!!!!!!</span>
+        </h1>
+    </header>
+    <main class="w-3/4 mx-auto">
+        <div class="grid grid-cols-3 p-8 gap-4 text-white">
+            <div class="diposit-class bg-blue-300 rounded p-10">
+                <h3 class="text-3xl	">Diposit</h3>
+                <h3 class="text-4xl	">$<span id="diposit-money">000</span> </h3>
+            </div>
+            <div class="diposit-class bg-green-300 rounded p-10">
+                <h3 class="text-3xl	">Withdraw</h3>
+                <h3 class="text-4xl	">$<span id="withdraw-balance">000</span></h3>
+            </div>
+            <div class="diposit-class bg-yellow-300 rounded p-10">
+                <h3 class="text-3xl	">Balance</h3>
+                <h3 class="text-4xl	">$<span id="balance-total">1200</span> </h3>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 p-8 gap-4">
+            <div class="bg-red-100 p-8 rounded">
+                <h3 class="text-3xl font-semibold mb-2">Please Diposit</h3>
+                <input class="p-2 w-3/4 rounded" type="text" name="" id="diposit-input"
+                    placeholder="$ammount you want to diposit">
+                <br>
+                <button id="diposit-btn" class="bg-yellow-600 text-white px-8 py-2 rounded mt-2">Diposit</button>
+            </div>
+            <div class="bg-purple-100 p-8 rounded">
+                <h3 class="text-3xl font-semibold mb-2">Withdraw</h3>
+                <input class="p-2 w-3/4 rounded" type="text" name="" id="withdraw-input"
+                    placeholder="$ammount you want to Withdraw">
+                <br>
+                <button id="withdraw-btn" class="bg-yellow-600 text-white px-8 py-2 rounded mt-2">Withdraw</button>
+            </div>
+
+
+        </div>
+
+    </main>
+    <footer class="">
+        <p class="text-center font-semibold">Copyright &copy;Bappy Das 2021</p>
+    </footer>
+
+
+
+    <script src="js/function.js"></script>
+</body>
+
+</html>
